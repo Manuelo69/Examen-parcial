@@ -5,11 +5,13 @@ public class Mueble {
     private String nombre;
     private String color;
     private double precio;
+    private boolean compuerta;
 
-    public Mueble(String nombre, String color, double precio) {
+    public Mueble(String nombre, String color, double precio, boolean compuerta) {
         this.nombre = nombre;
         this.color = color;
         this.precio = precio;
+        this.compuerta = compuerta;
     }
 
     public String getNombre() {
@@ -24,6 +26,10 @@ public class Mueble {
         return precio;
     }
 
+    public boolean isCompuerta() {
+        return compuerta;
+    }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -34,6 +40,10 @@ public class Mueble {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    public void setCompuerta(boolean compuerta) {
+        this.compuerta = compuerta;
     }
 
     @Override

@@ -2,8 +2,8 @@ package cic.ejercicio1_04.model;
 
 public interface Compuerta {
 
-    public boolean abrir(boolean compuerta);
+    public void abrir();
 
-    public boolean cerrar(boolean compuerta);
+    public void cerrar();
 
 }
