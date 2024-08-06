@@ -1,6 +1,8 @@
 package cic.ejercicio1_04;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -31,6 +33,18 @@ public class ArmarioTest {
     public void testToString() {
         String expected = "Armario [Puertas=2, Nombre=Armario1, Color=Rojo, Precio=150.0]";
         assertEquals(expected, armario.toString());
+    }
+
+    @Test
+    public void testAbrir() {
+        armario.abrir();
+        assertTrue(armario.isCompuerta());
+    }
+
+    @Test
+    public void testCerrar() {
+        armario.cerrar();
+        assertFalse(armario.isCompuerta());
     }
 
 }
