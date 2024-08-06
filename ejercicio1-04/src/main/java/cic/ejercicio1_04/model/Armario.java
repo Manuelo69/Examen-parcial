@@ -19,8 +19,8 @@ public class Armario extends Mueble implements Compuerta {
 
     @Override
     public String toString() {
-        return "Armario [getPuertas()=" + getPuertas() + ", getNombre()=" + getNombre() + ", getColor()=" + getColor()
-                + ", getPrecio()=" + getPrecio() + "]";
+        return "Armario [Puertas=" + getPuertas() + ", Nombre=" + getNombre() + ", Color=" + getColor()
+                + ", Precio=" + getPrecio() + "]";
     }
 
     @Override

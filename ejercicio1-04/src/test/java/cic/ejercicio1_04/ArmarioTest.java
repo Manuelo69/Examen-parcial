@@ -29,7 +29,7 @@ public class ArmarioTest {
 
     @Test
     public void testToString() {
-        String expected = "Armario [getPuertas()=2, getNombre()=Armario1, getColor()=Rojo, getPrecio()=150.0]";
+        String expected = "Armario [Puertas=2, Nombre=Armario1, Color=Rojo, Precio=150.0]";
         assertEquals(expected, armario.toString());
     }
 
