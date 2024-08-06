@@ -19,8 +19,8 @@ public class Coche extends Mueble implements Compuerta {
 
     @Override
     public String toString() {
-        return "Coche [getMarca()=" + getMarca() + ", getNombre()=" + getNombre() + ", getColor()=" + getColor()
-                + ", getPrecio()=" + getPrecio() + "]";
+        return "Coche [marca=" + getMarca() + ", nombre=" + getNombre() + ", color=" + getColor()
+                + ", precio=" + getPrecio() + "]";
     }
 
     @Override
