@@ -1,0 +1,21 @@
+Ejercicio1 -> Tengo una herencia, mueble, armario, coche, cama y hay algunas 
+cosas como compuertas y crear una jerarquia como test
+
+Ejercicio2 -> Montar un arbol con un algoritmo de numeros en el cual cada 
+nodo tiene un numero y un nombre, el valor no es solamente, si es impar solo cojo el numero
+y si es par cojo la longitud de la cadena y lo sumo.
+
+Ejercicio3 -> Supongamos que tenemos 3 clases, telefono, teclado y pantalla, cuando tecleo
+un numero en un telefono, si presiono en llamar me aparece en pantalla, si esta en llamada y presiona la tecla
+colgar, el telefono deja de estar en llamada, tengo un boton encendido y apagado.
+
+Ejercicio4 -> No tengo capa de persistencia, para hacer un servidor fake dummie, exponer unos controladores, desde 2 entidades principales,
+Pelicula y director, crear un crud básico. sobre estas 2 entidades. se supone que una pelicula tiene un director, y 
+que un director puede tener varias peliculas. por la pelicula, titulo obligatorio y lo::ngitud minima del titulo es 1
+y maximo 100, en el caso del director, longitud minima 1 del nombre del director. 
+
+Ejercicio5 -> Festival de cine cic: va a haber un día de festival, me han dado 3 salas y tengo 3 sesiones por salas
+el problema de negocio es que quiero vender las entradas, capacidad de salas, 100, 50 y 20 respectivamente,
+o vendo o no vendo, precio de la entrada 5 euros, PERO, existen descuento, a partir de 5 entradas hay descuento de grupo
+que es un 20%, tambien hay descuento joven de 30% aplicar si tiene carnet joven, el dueño del cine necesita sacar reportes
+por cada proyección, admito devoluciones
