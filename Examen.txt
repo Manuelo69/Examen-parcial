@@ -11,7 +11,7 @@ colgar, el telefono deja de estar en llamada, tengo un boton encendido y apagado
 
 Ejercicio4 -> No tengo capa de persistencia, para hacer un servidor fake dummie, exponer unos controladores, desde 2 entidades principales,
 Pelicula y director, crear un crud básico. sobre estas 2 entidades. se supone que una pelicula tiene un director, y 
-que un director puede tener varias peliculas. por la pelicula, titulo obligatorio y lo::ngitud minima del titulo es 1
+que un director puede tener varias peliculas. por la pelicula, titulo obligatorio y longitud minima del titulo es 1
 y maximo 100, en el caso del director, longitud minima 1 del nombre del director. 
 
 Ejercicio5 -> Festival de cine cic: va a haber un día de festival, me han dado 3 salas y tengo 3 sesiones por salas
