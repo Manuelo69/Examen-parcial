@@ -24,7 +24,6 @@ public class Director {
     @OneToMany(mappedBy = "director")
     private List<Pelicula> peliculas;
 
-    // Getters y setters
     public Long getId() {
         return id;
     }
